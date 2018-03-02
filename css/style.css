@@ -1,0 +1,56 @@
+.mycal{
+	margin: auto;
+    width: 340px;
+	margin-top: 30px;
+	height: 607px;
+	background-color: white;
+	box-shadow: 5px 5px #80808047;
+	
+}
+
+
+input {
+ 
+	text-align: right;
+	padding-top:100px!important;
+	padding-right: 30px!important;
+    box-sizing: border-box!important;
+	height: 208px!important;
+	border-radius: 0px!important;
+    background-image: linear-gradient(to top right, #de1dc994 4%,#e8971c 108%)!important;
+	resize: none!important;
+	font-size: 20px!important;
+}
+.mybut{
+	padding: 11px 42px !important;
+	line-height: 2.428571 !important ;
+	border-radius: 0 !important;
+	width: 50px!important;
+	color:rgb(77, 67, 67);
+	background-color: white;
+	padding-left: 29px!important;
+    padding-right: 54px!important;
+
+	
+}
+
+.mybutequals{
+	padding: 11px 42px !important;
+	line-height: 2.428571 !important ;
+	border-radius: 0 !important;
+	width: 50px!important;
+	color:rgb(77, 67, 67);
+	background-image: linear-gradient(to top right, #de1dc973 4%,#e8971c 108%)!important;
+
+	
+}
+.form-group{
+	margin-bottom: 0!important ;
+}
+.color{
+	color:#de1dc9!important;
+}
+.bcolor{
+	background-color: #d6d0d080!important;
+	
+}

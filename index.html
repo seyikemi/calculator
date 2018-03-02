@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1">
+	<title>My Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src = "js/script.js"> </script>
+	
+</head>
+<body>
+	<div class="container mx-auto my-auto ">
+			<h3 class = "text-center">Calculator</h3>
+		<div class = "mycal">
+			
+			<div class = "form-group">
+				 <input class = "form-control" id = "textty"style = "color:white" readonly>
+				
+				
+				
+			</div>
+
+			<div>
+			
+				
+				<div>
+				
+						<div class = "btn-group row btn-group-justified">
+								<div class = "col-md-3  nopad">
+										<button type = "button" class = "btn mybut color bcolor " onclick = "clear()" >AC</button>
+								</div>
+								<div class = "col-md-3  nopad">
+										<button type = "button" class = "btn mybut bcolor " onclick = "sine()"  >SIN</button>
+								</div>
+								<div class = "col-md-3  nopad">
+										<button type = "button" class = "btn mybut bcolor " onclick = "cos()" >COS</button>
+								</div>
+								<div class = "col-md-3  nopad">
+										<button type = "button" class = "btn mybut bcolor " onclick = "tane()"  >TAN</button>
+								</div>
+						</div>
+						<div class="btn-group">
+						<div class = " row  btn-group-justified">
+								<div class = "col-md-3  nopad">
+										<button  type = "button" class = "btn mybut " onclick = "log()" >log</button>
+								</div>
+								<div class = "col-md-3  nopad">
+										<button type = "button" class = "btn mybut ">ln</button>
+								</div>
+								<div class = "col-md-3  nopad">
+										<button type = "button" class = "btn mybut ">X <sup>2</sup></button>
+								</div>
+								<div class = "col-md-3  nopad">
+										<button type = "button" class = "btn mybut bcolor " onclick = "multiply()" >x</button>
+								</div>
+							</div>
+						</div>
+						<div class = "btn-group row btn-group-justified">
+								<div class = "col-md-3  nopad">
+										<button type = "button" class = "btn mybut " onclick = "sqrt()">sqrt</button>
+								</div>
+								<div class = "col-md-3  nopad">
+										<button type = "button" class = "btn mybut" onclick = "up()" >X <sup>3</sup></button>
+								</div>
+								<div class = "col-md-3  nopad">
+										<button type = "button" class = "btn mybut ">%</button>
+								</div>
+								<div class = "col-md-3  nopad">
+										<button type = "button" class = "btn mybut bcolor " onclick = "minus()">-</button>
+								</div>
+						</div>
+						<div class = "btn-group row  btn-group-justified">
+								<div class = "col-md-3  nopad">
+										<button type = "button" class = "btn mybut " onclick = "number(7)">7</button>
+								</div>
+								<div class = "col-md-3  nopad">
+										<button type = "button" class = "btn mybut " onclick = "number(8)" >8</button>
+								</div>
+								<div class = "col-md-3 nopad">
+										<button type = "button" class = "btn mybut " onclick = "number(9)">9</button>
+								</div>
+								<div class = "col-md-3  nopad">
+										<button type = "button" class = "btn mybut bcolor " onclick = "addition()">+</button>
+								</div>
+						</div>
+						<div class = "btn-group row  btn-group-justified">
+							<div class = "col-md-3  nopad">
+									<button type = "button" class = "btn mybut " onclick = "number(4)">4</button>
+							</div>
+							<div class = "col-md-3  nopad">
+									<button type = "button" class = "btn mybut "onclick = "number(5)">5</button>
+							</div>
+							<div class = "col-md-3 nopad">
+									<button type = "button" class = "btn mybut " onclick = "number(6)">6</button>
+							</div>
+							<div class = "col-md-3  nopad">
+									<button type = "button" class = "btn mybut bcolor "><span style = "font-weight :bolder";>.</span></button>
+							</div>
+					</div>
+						<div class = "btn-group row  btn-group-justified">
+							<div class = "col-md-3  nopad">
+									<button type = "button" class = "btn mybut " onclick = "number(1)">1</button>
+							</div>
+							<div class = "col-md-3  nopad">
+									<button type = "button" class = "btn mybut " onclick = "number(2)">2</button>
+							</div>
+							<div class = "col-md-3 nopad">
+									<button type = "button" class = "btn mybut " onclick = "number(3)">3</button>
+							</div>
+							<div class = "col-md-3  nopad">
+									<button type = "button" class = "btn mybut bcolor " onclick = "division()" >/</button>
+							</div>
+					</div>
+						<div class = "btn-group row btn-group-justified">
+								<div class = "col-md-3 nopad">
+										<button type = "button" class = "btn mybut" onclick = "number(0)">0</button>
+								</div>
+								<div class = "col-md-3  nopad">
+										<button type = "button" class = "btn mybut " onclick="bra()">(</button>
+								</div>
+								<div class = "col-md-3 nopad">
+										<button type = "button" class = "btn mybut " onclick="bra1()" >)</button>
+								</div>
+								<div class = "col-md-3  nopad">
+										<button type = "button" class = "btn mybutequals " onclick = "equals()" >=</button>
+								</div>
+						</div>
+				</div>
+				
+				
+				
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
